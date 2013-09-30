@@ -1,0 +1,6 @@
+/* .blok (header, tekstvak, footer): spaties binnen blok, ronde rand van 2px; */
+.blok{
+	width: none;
+	width: 90%; 
+	position: relative;
+}

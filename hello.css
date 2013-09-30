@@ -7,25 +7,21 @@ body{
 	margin: auto;
 }
 
-/* .blok (header, tekstvak, footer): spaties binnen blok, ronde rand van 2px; */
 .blok{
-  width: 250px; 
-  zoom: 2.2;
-  padding: 20px 20px 5px 20px;
-  border-style: solid;
-  border-width: 2px;
-  border-radius: 10px;
-  background-color: #f1f1f1; 
-  margin: auto;
-  margin-top: 35px;
-  text-align:center;
-  min-height:200px;
+	background-color: #f1f1f1; 
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 10px;
+	text-align:center;
+	min-height:200px;
+	margin: auto;
+	padding: 25px 10px 5px 10px;
 }
-
+	
 /* #tekstvak: spaties binnen tekstvak en ruimte tussen tekstvak met header en footer */
 #tekstvak {
  	padding: 20px 24px 20px 57px;
-	margin: 5px 0 5px 0;
+	margin: 10px 10 10px 10px;
 }
 
 h1{
@@ -36,8 +32,31 @@ color:black;
 	font-weight: bold;
 }
 
-
 p{
 font-family:"Times New Roman";
 font-size:20px;
 }
+
+/*****************************************************
+ANDERE MANIER MET SLECHTS 1 CSS BESTAND
+*****************************************************/
+
+/*****************************************************
+CSS will style between 601px & 980px (Screen Size)
+*****************************************************/
+
+/*****************************************************
+@media screen and (min-width: 601px) and (max-width: 980px) {
+
+}
+*****************************************************/
+
+/*****************************************************
+CSS will style between 981px & Maximum (Screen Size)
+*****************************************************/
+
+/*****************************************************
+@media screen and (min-width: 981px) {
+
+}
+*****************************************************/
