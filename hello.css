@@ -1,0 +1,43 @@
+body{
+	background-color: #272b30;
+}
+
+/* #container (bevat de hele pagina): breedte container, container gecentreerd (afstand van de kant even groot) */
+#container {
+	margin: auto;
+}
+
+/* .blok (header, tekstvak, footer): spaties binnen blok, ronde rand van 2px; */
+.blok{
+  width: 250px; 
+  zoom: 2.2;
+  padding: 20px 20px 5px 20px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  background-color: #f1f1f1; 
+  margin: auto;
+  margin-top: 35px;
+  text-align:center;
+  min-height:200px;
+}
+
+/* #tekstvak: spaties binnen tekstvak en ruimte tussen tekstvak met header en footer */
+#tekstvak {
+ 	padding: 20px 24px 20px 57px;
+	margin: 5px 0 5px 0;
+}
+
+h1{
+color:black;
+}
+
+#textContainer{
+	font-weight: bold;
+}
+
+
+p{
+font-family:"Times New Roman";
+font-size:20px;
+}
